@@ -56,7 +56,7 @@ ROOT_URLCONF = 'wikideas.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['aplicacion'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
