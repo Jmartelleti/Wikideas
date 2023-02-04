@@ -1,13 +1,14 @@
-//import logo from './logo.svg';
-import './App.css';
-import miAplication from './components/miAplication';
+import React from "react";
+
+
+// Components//
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <h1>WikiIdeas</h1>
-      <miAplication />   
-    </div>
+    <>
+    <Header/>
+    </>
   );
 }
 
