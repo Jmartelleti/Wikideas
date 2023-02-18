@@ -1,37 +1,8 @@
 direcciones fisicas dentro de servidor interno 
 
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('',include('wiki.urls')),
-]
+class wiki( models.Model):
+    body = models.CharField(max_length=50)
 
-
-@api_view(['GET'])
-def getWIKI(request):
-    blog = wiki.objects.all()
-    serializer = Wikiideas(blog, many=True)
-    return Response (serializer.data)
-
-@api_view(['POST'])
-def postWIKI(request):
-    data=request.data
-    blog = wiki.objects.create(
-        body=data['body']
-    )
-    serializer = Wikiideas(blog , many= False)
-    return Response(serializer.data)
-
-api_view(['PUT'])
-def putWIKI(request,pk):
-    data = request.data 
-    blog = wiki.objects.get(id=pk)
-    serializer = Wikiideas(instance=blog, data=data)
-    if serializer.is_valid():
-        serializer.save()
-        return Response(serializer.data)
-
-api_view(['DELETE'])
-def deleteWIKI(request,pk):
-    blog = wiki.objects.get(id=pk)
-    wiki.delete()
-    return Response('Wiki eliminado ')
+    post
+    
+    
