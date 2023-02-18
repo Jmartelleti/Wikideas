@@ -1,23 +1,105 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Plantilla inicio - Bootstrap v5.0.1</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+
+    <!--Primero el móvil, no tender a hacer zoom, sino levantar a escala natural siempre y cuando haya
+       sido pensado como un sitio responsive, y anular el comportamiento de ajustar a los límites del dispositivo
+       el contenido, cuando este sobresalga-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <nav class=" navbar navbar-black">
-      <div class="container-fluid">
-        <a class="navbar-brand" href=""> WIKIDEAS </a>
-      </div>
-    
-    
-      <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  </body>
+
+    <!-- CSS -->
+    <!--Bootstrap CSS-->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <!--CSS Propio / ES SI LO EDITAMOS-->
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+
+    <!-- JavaScript -->
+    <!-- Popper.js + Bootstrap JS o Boostrap con Popper inc. -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <!--<script src="js/popper.min.js"></script>-->
+    <!--<script src="js/bootstrap.js"></script>-->
+
+</head>
+
+<body>
+
+    <div class="container-fluid" id="uno">
+        CONTENEDOR FLUIDO Lorem Ipsum is simply dummy text of
+        the printing and typesetting industry. Lorem Ipsum has been
+        the industry's standard dummy text ever since the 1500s, when an
+        unknown printer took a galley of type and scrambled it to make
+        a type specimen book.
+    </div>
+
+    <div class="container">
+        CONTAINER - div con anchos fijos (px)
+        dependiendo del dispositivo...  
+        parecido a centrado
+    </div>
+
+    <!-- figure ocupe el 100%
+    del ancho hasta que la ventana entre en un rango lg...
+    desde la ventana de ancho 992 en adelante esta caja comienza
+    a tener anchos en px -->
+
+    <figure class="container-lg"> 
+
+        <!-- CLASES PARA IMAGENES-->
+        <!-- .img-fluid imagen sea fluida -->
+
+        <img src="img/chica.jpg" 
+        alt="chica con auriculares sobre fondo amarillo..."
+        class="img-fluid">
+
+        <!-- img-thumbnail -->
+        <img src="img/01.jpg" alt=""
+        class="img-thumbnail">
+
+
+        <!-- .rounded-circle-->
+        <img src="img/02.jpg" alt=""
+        class="img-fluid rounded-circle">
+
+    </figure>
+
+    <!-- px y % contenedores -->
+    <!-- padding, margin, border-radius rem/em 
+    mantiene relacio con el tamaño fuente-->
+
+
+        <footer>
+            <figure>
+                <img src="img/01.png" alt="ullbag celeste">
+            </figure>
+            <figure>
+                <img src="img/02.png" alt="ullbag negro">
+            </figure>
+            <figure>
+                <img src="img/03.png" alt="ullbag rosado">
+            </figure>
+            <figure>
+                <img src="img/04.png" alt="ullbag violeta">
+            </figure>
+            <figure>
+                <img src="img/05.png" alt="ullbag naranja">
+            </figure>
+            <figure>
+                <img src="img/06.png" alt="ullbag verde">
+            </figure>
+            <figure>
+                <img src="img/07.png" alt="ullbag amarilla">
+            </figure>
+            <figure>
+                <img src="img/08.png" alt="ullbag roja">
+            </figure>
+         
+        </footer>
+
+</body>
+
 </html>

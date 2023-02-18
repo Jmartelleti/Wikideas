@@ -1,0 +1,38 @@
+.container-fluid{
+    background-color: rgb(171,228, 209);
+    color: white;
+}
+
+
+#uno{
+    min-height: 200px;
+}
+
+.container{
+    background-color: rgb(236,156,127);
+}
+
+ /* BREAKPOINTS.... 
+
+ mobile
+extrapequeños - 0 a 575 px
+pequeños - 576 a 767 px
+
+tablet
+medianos - 768 a 991px
+
+noteobok, pc
+large - 992 a 1199px
+xlarge - 1200 a 1399 px
+xxlarge - 1400 en adelante
+
+*/
+
+.img-thumbnail {
+    padding: 1 rem;
+    background-color: rgb(23, 207, 106);
+    border: 6px solid #0b2cec;
+    border-radius: 1 rem;
+    max-width: 100%;
+    height: auto;
+  }
