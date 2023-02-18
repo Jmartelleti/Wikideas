@@ -1,13 +1,11 @@
 from rest_framework.response import Response
 from rest_framework.serializers import Serializer
 from  rest_framework.decorators import api_view
-
 from .models import wiki
 from .serializers import Wikiideas #importacion de class 
 # views.py
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from django.views.decorators.csrf import csrf_exempt
 from braces.views import CsrfExemptMixin
 
 
@@ -46,3 +44,11 @@ def deleteWIKI(request,pk):
     blog = wiki.objects.get(id=pk)
     wiki.delete()
     return Response('Wiki eliminado ')
+
+
+    
+from django.shortcuts import render
+
+def index(request):
+    return render(request, 'index.html') 
+

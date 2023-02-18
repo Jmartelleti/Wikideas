@@ -6,4 +6,5 @@ urlpatterns = [
     path('post/',views.postWIKI),
     path('put/<int:pk>/',views.putWIKI),
     path('put/<int:pk>/',views.deleteWIKI),
+    path('',views.index, name = "mainpage"),
 ]
