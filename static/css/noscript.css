@@ -6,13 +6,14 @@
 
 /* Header */
 
-	body.is-preload #header.alt > * {
-		opacity: 1;
-	}
+/*header figure {
+    text-align: center;
+}*/
 
-	body.is-preload #header.alt .logo {
-		-moz-transform: none;
-		-webkit-transform: none;
-		-ms-transform: none;
-		transform: none;
-	}
+header img {
+    width: 350px;
+}
+
+header div{
+background-color: black;
+}
