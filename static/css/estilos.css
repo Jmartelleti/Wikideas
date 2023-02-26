@@ -1,0 +1,163 @@
+@import url(fontawesome-all.min.css);
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+
+
+#uno {
+    background-color: black;
+   
+}
+
+.textoHeader{
+    color: white;
+   
+}
+
+
+.iconos {
+    list-style: none;
+    /*display: flex;*/
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+.iconos svg {
+    margin-right: 20px;
+  }
+
+.btnNavegador{
+background-color: white;
+
+color: black;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+text-decoration: none;
+margin-bottom: 4px;
+font-size: 20px;
+border-radius: 6px;
+text-align: left;
+padding-left: 10px;
+}
+
+
+#dos{
+/*position: absolute;*/
+width: 1440px;
+height: 109px;
+left: 0px;
+top: 40px;
+}
+
+#navlinks{
+/*position: absolute;*/
+width: 597px;
+height: 30px;
+left: 720px;
+top: 39px;
+}
+
+#crear{
+/*position: absolute;*/
+width: 81px;
+height: 30px;
+left: 720px;
+top: 39px;
+
+font-family: 'Kanit';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+color: #333333;
+}
+
+#privacidad{
+/*position: absolute;*/
+width: 108px;
+height: 30px;
+left: 888px;
+top: 39px;
+
+font-family: 'Kanit';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+color: #333333;
+}
+
+#contacto{
+/*position: absolute;*/
+width: 82px;
+height: 30px;
+left: 1235px;
+top: 39px;
+
+font-family: 'Kanit';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+color: #333333;
+}
+
+#nosotros {
+/*position: absolute;*/
+width: 81px;
+height: 30px;
+left: 1068px;
+top: 39px;
+
+font-family: 'Kanit';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+color: #333333;
+}
+
+#titulo{
+/*    position: absolute;*/
+/*width: 219px;/*
+/*height: 65px;/*
+/*left: 117px;*/
+/*top: 22px;*/
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 65px;
+
+color: #000000;
+
+}
+
+
+#tres{
+    /*position: absolute;*/
+    background: url(/static/images/portada.png);
+    background-size: cover;
+    background-position: center top;
+    /*background-attachment: fixed;*/
+    
+    height: 560px;
+    width: 100%;
+    
+    }
+
+
+
+
+#cuatro{
+  
+}
