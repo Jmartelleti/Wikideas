@@ -1,0 +1,8 @@
+direcciones fisicas dentro de servidor interno 
+
+class wiki( models.Model):
+    body = models.CharField(max_length=50)
+
+    post
+    
+    

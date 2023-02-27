@@ -1,0 +1,147 @@
+@import url(fontawesome-all.min.css);
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+
+/*
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+.btn:hover, .btnNavegador:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    /*display: block;*/
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 4px;
+    text-size-adjust: 30px;
+    border-radius: 6px;
+    font-size: 15px;
+    
+}
+
+.btnNavegador{
+background-color: black;
+color: white;
+display: block;
+text-align: center;
+text-decoration: none;
+margin-bottom: 4px;
+font-size: 20px;
+border-radius: 6px;
+text-align: left;
+padding-left: 10px;
+}
+
+#navegador ul {
+    list-style-type: none;
+}
+
+
+table tr:nth-of-type(1){
+    background-color: rgb(49, 175, 163);
+}
+
+
+
+
+#navegador nav li {
+    list-style: none;
+
+}
+
+#navegador nav {
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    padding: 5px 3px;
+
+}
+
+/*en MD en adelante,tablet , ocupe 100%*/
+/*dispositivo cuyo ancho es 768 px en adelante....*/
+/*@media screen and (min-width: 768px) {
+    header img {
+        width: 50%;
+    }
+}*/
+
+h2 {
+    color: rgb(49, 175, 163);
+    
+}
+h1 {
+    border-left: 3px solid rgb(49, 175, 163);
+    
+}
+
+#dos {
+    color: white;
+    background-color: black;
+    height: 100%;
+    
+    padding: 50px;
+    
+}
+/*#dos div aside table tr{
+    border: 1px solid white;
+}
+#dos div aside table tr th{
+    border: 1px solid white;
+}*/
+#dos div aside table {
+    color: white;
+    border: #DADBD6;
+}
+
+#tres {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+/* 
+0-575 - extra pequeños
+576-767 - sm
+768-991 - md
+992-1199 - lg
+1200-1399 - xl
+1400 en adelante - xxl
+*/
+
+
+#imagenPrincipal {
+    background-image: url(/img/hero.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+
+    height: 765px;
+    width: 100%;
+}
+
+#imagenFooter {
+    background-image: url(/img/back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 900px;
+    /*max-width: 100%;
+     height: auto;*/
+ 
+}
+
+
+
+#imagenFooter p{
+   color: white;
+   padding-top: 800px;
+   
+}
